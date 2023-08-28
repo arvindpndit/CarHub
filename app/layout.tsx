@@ -1,5 +1,5 @@
-import Navbar from "@/component/navbar";
-import Footer from "@/component/footer";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 import "./globals.css";
 import type { Metadata } from "next";
 
@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="w-3/4 flex flex-col justify-center mx-auto">
         <Navbar />
         {children}
         <Footer />
