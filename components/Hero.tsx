@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -14,6 +14,14 @@ const Hero = () => {
         <button className="px-4 py-2 bg-blue-700 text-white rounded-full mt-6">
           Explore Cars
         </button>
+      </div>
+      <div>
+      <Image
+      src="/car.png"
+      width={800}
+      height={800}
+      alt="Picture of the Car"
+    />
       </div>
     </div>
   );

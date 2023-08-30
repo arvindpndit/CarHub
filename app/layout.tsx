@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="w-3/4 flex flex-col justify-center mx-auto">
+      <body className=" w-full md:w-3/4 flex flex-col justify-center mx-auto px-2 md:px-0">
         <Navbar/>
         {children}
         <Footer/>
