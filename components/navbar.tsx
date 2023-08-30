@@ -6,7 +6,6 @@ const Navbar = () => {
       <h2 className="text-xl font-bold">CarHub</h2>
       <ul className="flex gap-4">
         <li>About us</li>
-        <li>Profile</li>
         <li>Signup</li>
       </ul>
     </div>
