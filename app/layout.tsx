@@ -1,7 +1,9 @@
-import Navbar from "@/components/Navbar";
+
 import "./globals.css";
 import type { Metadata } from "next";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+
 
 export const metadata: Metadata = {
   title: "Carhub",
@@ -16,9 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="w-3/4 flex flex-col justify-center mx-auto">
-        <Navbar />
+        <Navbar/>
         {children}
-        <Footer />
+        <Footer/>
       </body>
     </html>
   );
